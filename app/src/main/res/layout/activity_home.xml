@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44444C"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="134dp"
+        android:layout_height="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        app:srcCompat="@drawable/knowwhere_logo" />
+
+    <Button
+        android:id="@+id/idROTA"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="ROTA"
+        android:textColor="#FF4500"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idTeamConnect"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <Button
+        android:id="@+id/idEmpDetails"
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="EMP Details"
+        android:textColor="#FF4500"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <Button
+        android:id="@+id/idTeamConnect"
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="Team Connect"
+        android:textColor="#FF4500"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idEmpDetails"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <Button
+        android:id="@+id/idActionItem"
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="Action Item"
+        android:textColor="#FF4500"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idROTA"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <Button
+        android:id="@+id/idEnroute"
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="Enroute"
+        android:textColor="#FF4500"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idActionItem"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <Button
+        android:id="@+id/idChat"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        android:background="#FFFFFF"
+        android:text="Chat"
+        android:textColor="#FF4500"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idEnroute"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/idlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        android:background="#FFFFFF"
+        android:text="Logout"
+        android:textColor="#FF4500"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/idChat"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idEnroute"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
